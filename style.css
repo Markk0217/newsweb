@@ -1,0 +1,248 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.Container {
+  background-image: url("1.jpg");
+  padding: 400px;
+  margin-top: -25px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center top;
+  margin-bottom: -100px;
+}
+
+
+.nytimesTiltle {
+  box-sizing: border-box;
+  background-color: inherit;
+  width: 700px;
+  height: 50px;
+  font-family: 'UnifrakturMaguntia';
+  color: white;
+  text-align: center;
+  font-size: 70px;
+  margin-top: -250px;
+  margin-left: 450px;
+  letter-spacing: 2px;
+}
+
+.JokerTiltle {
+  box-sizing: border-box;
+  background-color: inherit;
+  width: 500px;
+  height: 600px;
+  margin-top: -450px;
+  margin-left: 950px;
+}
+
+.text0 {
+  font-family: 'Jomolhari', serif;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-weight:lighter;
+  letter-spacing: 2px;
+}
+
+.text1 {
+  font-family: 'Jomolhari', serif;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-weight:lighter;
+  letter-spacing: 2px;
+
+}
+
+.text2 {
+  font-family: 'Jomolhari', serif;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 25px;
+  font-weight:lighter;
+}
+
+
+.text3 {
+  font-family: 'Jomolhari', serif;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 25px;
+  font-weight: bolder;
+  padding-top: 7px;
+  text-decoration: underline;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+a:active {
+  color: white;
+}
+
+.BlackBox {
+  box-sizing: border-box;
+  background-color: #010816;
+  width: 1666px;
+  height: 1000px;
+  padding-top: 5px;
+  margin-top: -200px;
+}
+
+.BlackBox2 {
+  box-sizing: border-box;
+  background-color: #010816;
+  width: 1666px;
+  height: 500px;
+  margin-top: -100px;
+}
+
+.newsBox {
+  box-sizing: border-box;
+  background-color: inherit;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 200%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #010816;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  font-family: 'Jomolhari', serif;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.botB {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  padding-right: 40px;
+  padding-left: 40px;
+  letter-spacing: 2px;
+  padding-bottom: -30px;
+
+}
+
+.bot {
+  box-sizing: border-box;
+  background-color: #010816;
+  width: 1600px;
+  height: 300px;
+
+  font-family: 'Jomolhari', serif;
+  color: white;
+  line-height: 1px;
+  font-size: 15px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.bot1 {
+  box-sizing: border-box;
+  background-color: #010816;
+  width: 1600px;
+  height: 300px;
+  margin-top: -200px;
+
+  font-family: 'Jomolhari', serif;
+  color: white;
+  line-height: 1px;
+  font-size: 15px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  }
+
+.rights {
+  font-family: 'Jomolhari', serif;
+  color: white;
+  line-height: 1px;
+  font-size: 15px;
+  text-align: center;
+  margin-top: -50px;
+  margin-bottom: -30px;
+}
+
+.edit {
+  font-family: 'Jomolhari', serif;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-top: -160px;
+}
+
+hr {
+  width: 93%;
+  height: 0.05px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  margin-bottom: 30px;
+}
