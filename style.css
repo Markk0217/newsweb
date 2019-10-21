@@ -82,7 +82,6 @@ body {
   line-height: 25px;
   font-weight: bolder;
   padding-top: 7px;
-  text-decoration: underline;
 }
 
 a:link {
@@ -94,9 +93,18 @@ a:visited {
   color: white;
 }
 
-a:hover {
-  font-weight: bold;
+.bot a:hover {
   font-size: 30px;
+  font-weight: bolder;
+}
+
+.bot1 a:hover {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.text3 a:hover {
+  text-decoration: underline;
 }
 
 a:active {
